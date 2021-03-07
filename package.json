@@ -1,0 +1,16 @@
+{
+  "name": "geekbrains-architect",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ayanin/geekbrains-architect.git",
+  "author": "Alexander Yanin <alexandr.nn54@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node src/$npm_config_task/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.31",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3"
+  }
+}
