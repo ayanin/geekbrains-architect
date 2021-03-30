@@ -9,7 +9,7 @@ export class ConsoleReaderExpressionImpl implements ReaderExpression {
       output: process.stdout,
     });
 
-    return new Promise((resolve, reject) => {
+    return new Promise((resolve) => {
       readline.question("Input expression:\n", (exp) => {
         readline.close();
         resolve(exp);
