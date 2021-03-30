@@ -11,7 +11,7 @@ async function main() {
     .map(sortStation)
     .map(calculate)
     .mapToNull(console.log)
-    .unsafeRun();
+    .run();
 }
 
 function readExpression() {

@@ -13,10 +13,6 @@ export class Monad {
     return this.value();
   }
 
-  unsafeRun() {
-    return this.value();
-  }
-
   flatMap(func) {
     return Monad.apply(() => {
       const v = this.run();
